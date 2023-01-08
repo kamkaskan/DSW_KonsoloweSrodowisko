@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4392ecfbb74af9e42980064873e26620, type: 3}
+  m_Name: SpawnerTree
+  m_EditorClassIdentifier: 
+  spawnCount: 10
+  prefabs:
+  - {fileID: 4779186837556505396, guid: 3c3ce8af8a81a63449567f9960a8b8a5, type: 3}
+  - {fileID: 4202810981176203642, guid: 77bb605fb0410a54fbb3e89941ede77c, type: 3}
+  - {fileID: 4202810981176203642, guid: 2232d63400beffb4096c75ecbb2d2b19, type: 3}
+  autoGround: 1
+  raycastHeight: 10
+  groundOffset: 0
